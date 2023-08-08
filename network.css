@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+}
+
+.container {
+    width: 60em;
+    margin: 0 auto;
+    padding: 0 2em;
+    font-family: cursive;
+}
+
+/* NAVIGATION BAR */
+nav{
+    height: auto;
+    padding: 0.1em 1em;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav h1{
+    font-size: 1.7em;
+    margin: 0.63em;
+    font-weight: 600;
+    color: #fff;
+}
+nav p{
+    font-size: 1.7em;
+    margin: 0.63em;
+    font-weight: 600;
+    color: #fff;
+}
+nav a:hover{
+    color: aqua;
+}
+.title{
+    margin: 0.5em;
+    text-align: center;
+}
+.row{
+    width: 60em;
+    height: 38em;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+.col{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    margin-right: 1em;
+    height: 20em;
+    border: 2px solid #000;
+}
+.col img{
+    width: 5em;
+    height: 6em;
+    margin-bottom: 1.5em;
+}
+.col a{
+    font-size: 1.5em;
+}
+.col p{
+    font-size: 2em;
+    margin-top: 1.8em;
+}
+
+/* Second Column */
+.col-2{
+    flex: 4;
+}
+
+.friends{
+    border: 2px solid #000;
+    height: 11em;
+    margin-bottom: 0.8em;
+    border: 2px solid #000;
+    background-color: rgba(207, 205, 202, 0.384);
+}
+.top-part{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0 1em;
+}
+.top-part h1{
+    flex: 2;
+}
+.like{
+    font-size: 1.7em;
+    font-weight: 500;
+    flex: 1;
+    padding: 0.5em;
+}
+.btn{
+    width: 5em;
+    height: 1.5em;
+    flex: 1;
+    margin: 8px;
+    color: #131413;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: yellowgreen;
+    box-shadow: 5px 5px 5px 4px #000;
+}
+.btn:hover{
+    background-color: aqua;
+    color: #fff;
+    cursor: pointer;
+}
+
+.friends p{
+    font-size: 1.2em;
+    margin: 1em;
+}

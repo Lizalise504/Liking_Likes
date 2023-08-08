@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+}
+.container{
+    width: 35em;
+    height: 14em;
+    margin: 5em auto;
+    border: 2px solid #000;
+    background-color: rgba(207, 205, 202, 0.384);
+}
+.top-part{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 1em;
+}
+.top-part h1{
+    flex: 2;
+}
+#like{
+    font-size: 1.7em;
+    font-weight: 500;
+    flex: 1;
+    padding: 0.5em;
+}
+.btn{
+    width: 5em;
+    height: 1.5em;
+    flex: 1;
+    margin: 8px;
+    color: #131413;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: yellowgreen;
+    box-shadow: 5px 5px 5px 4px #000;
+}
+.btn:hover{
+    background-color: aqua;
+    color: #fff;
+    cursor: pointer;
+}
+
+.container p{
+    font-size: 1.2em;
+    margin: 1em;
+}
+.container a:hover{
+    color: aqua;
+}
